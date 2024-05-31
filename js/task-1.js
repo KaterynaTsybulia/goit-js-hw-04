@@ -1,14 +1,14 @@
 // Задача 1. Пакування товарів
 
 function isEnoughCapacity(products, containerSize) {
-    let sum = 0;
-    let product = Object.values(products)
-    for (let value of product) {
+  let sum = 0;
+  const product = Object.values(products);
+    for (const value of product) {
         sum += value;
     }
-    const amount = sum < containerSize ? 'true' : 'false';
-    return amount;
+  return sum <= containerSize;
 };
+
 
 
 
