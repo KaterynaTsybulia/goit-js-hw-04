@@ -10,6 +10,9 @@ function isEnoughCapacity(products, containerSize) {
 };
 
 
+length; length; length; length;
+
+
 
 
 
